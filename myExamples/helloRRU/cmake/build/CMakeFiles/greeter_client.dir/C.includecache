@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ulak/cf/gRPCUsage/myExamples/helloRRU/src/client/greeter_client.c
+stdio.h
+/home/ulak/cf/gRPCUsage/myExamples/helloRRU/src/client/stdio.h
+greeter_client_headers.h
+/home/ulak/cf/gRPCUsage/myExamples/helloRRU/src/client/greeter_client_headers.h
+
+/home/ulak/cf/gRPCUsage/myExamples/helloRRU/src/client/greeter_client_headers.h
+

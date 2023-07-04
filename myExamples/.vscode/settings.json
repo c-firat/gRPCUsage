@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "/home/ulak/Projects/gRPC/3rd-parties/googletest",
+    "files.associations": {
+        "stdio.h": "c"
+    }
+}
