@@ -31,6 +31,9 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -117,25 +120,25 @@ depend:
 .PHONY : depend
 
 # Convenience name for target.
-src/client/CMakeFiles/clientSimulator.dir/rule:
-	cd /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/CMakeFiles/clientSimulator.dir/rule
-.PHONY : src/client/CMakeFiles/clientSimulator.dir/rule
+src/client/CMakeFiles/client_simulator.dir/rule:
+	cd /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/client/CMakeFiles/client_simulator.dir/rule
+.PHONY : src/client/CMakeFiles/client_simulator.dir/rule
 
 # Convenience name for target.
-clientSimulator: src/client/CMakeFiles/clientSimulator.dir/rule
-.PHONY : clientSimulator
+client_simulator: src/client/CMakeFiles/client_simulator.dir/rule
+.PHONY : client_simulator
 
 # fast build rule for target.
-clientSimulator/fast:
-	cd /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/clientSimulator.dir/build.make src/client/CMakeFiles/clientSimulator.dir/build
-.PHONY : clientSimulator/fast
+client_simulator/fast:
+	cd /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_simulator.dir/build.make src/client/CMakeFiles/client_simulator.dir/build
+.PHONY : client_simulator/fast
 
 client_simulator.o: client_simulator.c.o
 .PHONY : client_simulator.o
 
 # target to build an object file
 client_simulator.c.o:
-	cd /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/clientSimulator.dir/build.make src/client/CMakeFiles/clientSimulator.dir/client_simulator.c.o
+	cd /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_simulator.dir/build.make src/client/CMakeFiles/client_simulator.dir/client_simulator.c.o
 .PHONY : client_simulator.c.o
 
 client_simulator.i: client_simulator.c.i
@@ -143,7 +146,7 @@ client_simulator.i: client_simulator.c.i
 
 # target to preprocess a source file
 client_simulator.c.i:
-	cd /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/clientSimulator.dir/build.make src/client/CMakeFiles/clientSimulator.dir/client_simulator.c.i
+	cd /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_simulator.dir/build.make src/client/CMakeFiles/client_simulator.dir/client_simulator.c.i
 .PHONY : client_simulator.c.i
 
 client_simulator.s: client_simulator.c.s
@@ -151,7 +154,7 @@ client_simulator.s: client_simulator.c.s
 
 # target to generate assembly for a file
 client_simulator.c.s:
-	cd /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/clientSimulator.dir/build.make src/client/CMakeFiles/clientSimulator.dir/client_simulator.c.s
+	cd /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator && $(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_simulator.dir/build.make src/client/CMakeFiles/client_simulator.dir/client_simulator.c.s
 .PHONY : client_simulator.c.s
 
 # Help Target
@@ -162,7 +165,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... clientSimulator"
+	@echo "... client_simulator"
 	@echo "... client_simulator.o"
 	@echo "... client_simulator.i"
 	@echo "... client_simulator.s"

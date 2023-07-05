@@ -10,10 +10,10 @@
  */
 
 #include "stdio.h"
-#include "greeter_client_headers.h"
+#include "rru_operations.h"
 
 int main(int argc, char** argv)
 {
     printf("This is my C function and it is calling a cpp function to use grpc!\n");
-    my_cpp_function(argc, argv);
+    my_operation(argc, argv);
 }

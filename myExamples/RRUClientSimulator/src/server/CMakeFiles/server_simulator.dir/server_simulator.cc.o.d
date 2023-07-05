@@ -350,8 +350,8 @@ src/server/CMakeFiles/server_simulator.dir/server_simulator.cc.o: \
  /include/grpcpp/impl/server_builder_option.h \
  /include/grpcpp/security/authorization_policy_provider.h \
  /include/grpcpp/server_posix.h /include/grpcpp/version_info.h \
- /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/helloworld.grpc.pb.h \
- /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/helloworld.pb.h \
+ /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/proto_src/helloworld.grpc.pb.h \
+ /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/proto_src/helloworld.pb.h \
  /include/google/protobuf/port_def.inc \
  /include/google/protobuf/port_undef.inc \
  /include/google/protobuf/io/coded_stream.h \

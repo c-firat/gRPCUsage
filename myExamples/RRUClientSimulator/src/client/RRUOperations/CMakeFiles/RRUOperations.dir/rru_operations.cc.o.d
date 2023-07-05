@@ -1,8 +1,6 @@
-CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
- /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/helloworld.grpc.pb.cc \
- /usr/include/stdc-predef.h \
- /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/helloworld.pb.h \
- /usr/include/c++/11/limits \
+src/client/RRUOperations/CMakeFiles/RRUOperations.dir/rru_operations.cc.o: \
+ /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/client/RRUOperations/rru_operations.cc \
+ /usr/include/stdc-predef.h /usr/include/c++/11/iostream \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -11,27 +9,11 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs-64.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cpu_defines.h \
- /usr/include/c++/11/pstl/pstl_config.h /usr/include/c++/11/string \
+ /usr/include/c++/11/pstl/pstl_config.h /usr/include/c++/11/ostream \
+ /usr/include/c++/11/ios /usr/include/c++/11/iosfwd \
  /usr/include/c++/11/bits/stringfwd.h \
- /usr/include/c++/11/bits/memoryfwd.h \
- /usr/include/c++/11/bits/char_traits.h \
- /usr/include/c++/11/bits/stl_algobase.h \
- /usr/include/c++/11/bits/functexcept.h \
- /usr/include/c++/11/bits/exception_defines.h \
- /usr/include/c++/11/bits/cpp_type_traits.h \
- /usr/include/c++/11/ext/type_traits.h \
- /usr/include/c++/11/ext/numeric_traits.h \
- /usr/include/c++/11/bits/stl_pair.h /usr/include/c++/11/bits/move.h \
- /usr/include/c++/11/type_traits \
- /usr/include/c++/11/bits/stl_iterator_base_types.h \
- /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
- /usr/include/c++/11/bits/concept_check.h \
- /usr/include/c++/11/debug/assertions.h \
- /usr/include/c++/11/bits/stl_iterator.h \
- /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
- /usr/include/c++/11/bits/predefined_ops.h \
- /usr/include/c++/11/bits/postypes.h /usr/include/c++/11/cwchar \
- /usr/include/wchar.h \
+ /usr/include/c++/11/bits/memoryfwd.h /usr/include/c++/11/bits/postypes.h \
+ /usr/include/c++/11/cwchar /usr/include/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/x86_64-linux-gnu/bits/floatn.h \
  /usr/include/x86_64-linux-gnu/bits/floatn-common.h \
@@ -45,7 +27,27 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/FILE.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/c++/11/cstdint \
+ /usr/include/c++/11/exception /usr/include/c++/11/bits/exception.h \
+ /usr/include/c++/11/bits/exception_ptr.h \
+ /usr/include/c++/11/bits/exception_defines.h \
+ /usr/include/c++/11/bits/cxxabi_init_exception.h \
+ /usr/include/c++/11/typeinfo /usr/include/c++/11/bits/hash_bytes.h \
+ /usr/include/c++/11/new /usr/include/c++/11/bits/nested_exception.h \
+ /usr/include/c++/11/bits/move.h /usr/include/c++/11/type_traits \
+ /usr/include/c++/11/bits/char_traits.h \
+ /usr/include/c++/11/bits/stl_algobase.h \
+ /usr/include/c++/11/bits/functexcept.h \
+ /usr/include/c++/11/bits/cpp_type_traits.h \
+ /usr/include/c++/11/ext/type_traits.h \
+ /usr/include/c++/11/ext/numeric_traits.h \
+ /usr/include/c++/11/bits/stl_pair.h \
+ /usr/include/c++/11/bits/stl_iterator_base_types.h \
+ /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/11/bits/concept_check.h \
+ /usr/include/c++/11/debug/assertions.h \
+ /usr/include/c++/11/bits/stl_iterator.h \
+ /usr/include/c++/11/bits/ptr_traits.h /usr/include/c++/11/debug/debug.h \
+ /usr/include/c++/11/bits/predefined_ops.h /usr/include/c++/11/cstdint \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/types.h \
  /usr/include/x86_64-linux-gnu/bits/timesize.h \
@@ -53,25 +55,13 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/time64.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-intn.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h \
- /usr/include/c++/11/bits/allocator.h \
- /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
- /usr/include/c++/11/ext/new_allocator.h /usr/include/c++/11/new \
- /usr/include/c++/11/bits/exception.h \
  /usr/include/c++/11/bits/localefwd.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++locale.h \
  /usr/include/c++/11/clocale /usr/include/locale.h \
- /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/iosfwd \
- /usr/include/c++/11/cctype /usr/include/ctype.h \
- /usr/include/x86_64-linux-gnu/bits/endian.h \
+ /usr/include/x86_64-linux-gnu/bits/locale.h /usr/include/c++/11/cctype \
+ /usr/include/ctype.h /usr/include/x86_64-linux-gnu/bits/endian.h \
  /usr/include/x86_64-linux-gnu/bits/endianness.h \
- /usr/include/c++/11/bits/ostream_insert.h \
- /usr/include/c++/11/bits/cxxabi_forced.h \
- /usr/include/c++/11/bits/stl_function.h \
- /usr/include/c++/11/backward/binders.h \
- /usr/include/c++/11/bits/range_access.h \
- /usr/include/c++/11/initializer_list \
- /usr/include/c++/11/bits/basic_string.h \
- /usr/include/c++/11/ext/atomicity.h \
+ /usr/include/c++/11/bits/ios_base.h /usr/include/c++/11/ext/atomicity.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/gthr-default.h \
  /usr/include/pthread.h /usr/include/sched.h \
@@ -95,11 +85,21 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/struct_rwlock.h \
  /usr/include/x86_64-linux-gnu/bits/setjmp.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/atomic_word.h \
+ /usr/include/c++/11/bits/locale_classes.h /usr/include/c++/11/string \
+ /usr/include/c++/11/bits/allocator.h \
+ /usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h \
+ /usr/include/c++/11/ext/new_allocator.h \
+ /usr/include/c++/11/bits/ostream_insert.h \
+ /usr/include/c++/11/bits/cxxabi_forced.h \
+ /usr/include/c++/11/bits/stl_function.h \
+ /usr/include/c++/11/backward/binders.h \
+ /usr/include/c++/11/bits/range_access.h \
+ /usr/include/c++/11/initializer_list \
+ /usr/include/c++/11/bits/basic_string.h \
  /usr/include/c++/11/ext/alloc_traits.h \
  /usr/include/c++/11/bits/alloc_traits.h \
  /usr/include/c++/11/bits/stl_construct.h /usr/include/c++/11/string_view \
  /usr/include/c++/11/bits/functional_hash.h \
- /usr/include/c++/11/bits/hash_bytes.h \
  /usr/include/c++/11/bits/ranges_base.h \
  /usr/include/c++/11/bits/string_view.tcc \
  /usr/include/c++/11/ext/string_conversions.h /usr/include/c++/11/cstdlib \
@@ -127,51 +127,6 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /usr/include/x86_64-linux-gnu/bits/types/error_t.h \
  /usr/include/c++/11/bits/charconv.h \
  /usr/include/c++/11/bits/basic_string.tcc \
- /include/google/protobuf/port_def.inc \
- /include/google/protobuf/port_undef.inc \
- /include/google/protobuf/io/coded_stream.h /usr/include/assert.h \
- /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
- /usr/include/c++/11/bits/atomic_lockfree_defines.h \
- /usr/include/c++/11/climits \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
- /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
- /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
- /usr/include/x86_64-linux-gnu/bits/local_lim.h \
- /usr/include/linux/limits.h \
- /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
- /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
- /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/11/cstddef \
- /usr/include/c++/11/cstring /usr/include/string.h /usr/include/strings.h \
- /usr/include/c++/11/utility /usr/include/c++/11/bits/stl_relops.h \
- /include/google/protobuf/stubs/common.h /usr/include/c++/11/algorithm \
- /usr/include/c++/11/bits/stl_algo.h \
- /usr/include/c++/11/bits/algorithmfwd.h \
- /usr/include/c++/11/bits/stl_heap.h \
- /usr/include/c++/11/bits/stl_tempbuf.h \
- /usr/include/c++/11/bits/uniform_int_dist.h \
- /usr/include/c++/11/pstl/glue_algorithm_defs.h \
- /usr/include/c++/11/functional /usr/include/c++/11/tuple \
- /usr/include/c++/11/array /usr/include/c++/11/bits/uses_allocator.h \
- /usr/include/c++/11/bits/invoke.h /usr/include/c++/11/bits/refwrap.h \
- /usr/include/c++/11/bits/std_function.h /usr/include/c++/11/typeinfo \
- /usr/include/c++/11/unordered_map \
- /usr/include/c++/11/ext/aligned_buffer.h \
- /usr/include/c++/11/bits/hashtable.h \
- /usr/include/c++/11/bits/hashtable_policy.h \
- /usr/include/c++/11/bits/node_handle.h \
- /usr/include/c++/11/bits/unordered_map.h \
- /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
- /usr/include/c++/11/bits/stl_uninitialized.h \
- /usr/include/c++/11/bits/stl_vector.h \
- /usr/include/c++/11/bits/stl_bvector.h \
- /usr/include/c++/11/bits/vector.tcc \
- /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/iostream \
- /usr/include/c++/11/ostream /usr/include/c++/11/ios \
- /usr/include/c++/11/exception /usr/include/c++/11/bits/exception_ptr.h \
- /usr/include/c++/11/bits/cxxabi_init_exception.h \
- /usr/include/c++/11/bits/nested_exception.h \
- /usr/include/c++/11/bits/ios_base.h \
- /usr/include/c++/11/bits/locale_classes.h \
  /usr/include/c++/11/bits/locale_classes.tcc \
  /usr/include/c++/11/system_error \
  /usr/include/x86_64-linux-gnu/c++/11/bits/error_constants.h \
@@ -187,40 +142,90 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /usr/include/c++/11/bits/basic_ios.tcc \
  /usr/include/c++/11/bits/ostream.tcc /usr/include/c++/11/istream \
  /usr/include/c++/11/bits/istream.tcc /usr/include/c++/11/memory \
+ /usr/include/c++/11/bits/stl_uninitialized.h \
+ /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
  /usr/include/c++/11/bits/align.h /usr/include/c++/11/bit \
- /usr/include/c++/11/bits/unique_ptr.h \
+ /usr/include/c++/11/bits/uses_allocator.h \
+ /usr/include/c++/11/bits/unique_ptr.h /usr/include/c++/11/utility \
+ /usr/include/c++/11/bits/stl_relops.h /usr/include/c++/11/tuple \
+ /usr/include/c++/11/array /usr/include/c++/11/bits/invoke.h \
  /usr/include/c++/11/bits/shared_ptr.h \
  /usr/include/c++/11/bits/shared_ptr_base.h \
  /usr/include/c++/11/bits/allocated_ptr.h \
+ /usr/include/c++/11/bits/refwrap.h \
+ /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/ext/concurrence.h \
  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+ /usr/include/c++/11/bits/atomic_base.h \
+ /usr/include/c++/11/bits/atomic_lockfree_defines.h \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
- /include/absl/strings/string_view.h /usr/include/c++/11/cassert \
- /usr/include/c++/11/iterator /usr/include/c++/11/bits/stream_iterator.h \
+ /usr/include/c++/11/pstl/execution_defs.h /include/absl/flags/flag.h \
  /include/absl/base/attributes.h /include/absl/base/config.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/limits.h \
+ /usr/lib/gcc/x86_64-linux-gnu/11/include/syslimits.h \
+ /usr/include/limits.h /usr/include/x86_64-linux-gnu/bits/posix1_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/local_lim.h \
+ /usr/include/linux/limits.h \
+ /usr/include/x86_64-linux-gnu/bits/posix2_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/xopen_lim.h \
+ /usr/include/x86_64-linux-gnu/bits/uio_lim.h /usr/include/c++/11/cstddef \
  /include/absl/base/options.h /include/absl/base/policy_checks.h \
- /include/absl/base/internal/throw_delegate.h /include/absl/base/macros.h \
- /include/absl/base/optimization.h /include/absl/base/port.h \
- /include/google/protobuf/stubs/platform_macros.h \
- /include/google/protobuf/stubs/port.h /usr/include/c++/11/stdlib.h \
- /usr/include/byteswap.h /include/absl/log/absl_check.h \
- /include/absl/log/internal/check_impl.h \
- /include/absl/log/internal/check_op.h /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc \
- /include/absl/log/internal/nullguard.h \
- /include/absl/log/internal/nullstream.h /usr/include/unistd.h \
+ /include/absl/base/optimization.h /usr/include/assert.h \
+ /include/absl/flags/config.h /include/absl/flags/internal/flag.h \
+ /usr/include/c++/11/atomic /usr/include/c++/11/cstring \
+ /usr/include/string.h /usr/include/strings.h \
+ /include/absl/base/call_once.h /usr/include/c++/11/algorithm \
+ /usr/include/c++/11/bits/stl_algo.h \
+ /usr/include/c++/11/bits/algorithmfwd.h \
+ /usr/include/c++/11/bits/stl_heap.h \
+ /usr/include/c++/11/bits/uniform_int_dist.h \
+ /usr/include/c++/11/pstl/glue_algorithm_defs.h \
+ /usr/include/c++/11/functional /usr/include/c++/11/bits/std_function.h \
+ /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
+ /usr/include/c++/11/bits/hashtable_policy.h \
+ /usr/include/c++/11/bits/node_handle.h \
+ /usr/include/c++/11/bits/unordered_map.h \
+ /usr/include/c++/11/bits/erase_if.h /usr/include/c++/11/vector \
+ /usr/include/c++/11/bits/stl_vector.h \
+ /usr/include/c++/11/bits/stl_bvector.h \
+ /usr/include/c++/11/bits/vector.tcc /include/absl/base/internal/invoke.h \
+ /include/absl/base/internal/low_level_scheduling.h \
+ /include/absl/base/internal/raw_logging.h \
+ /include/absl/base/internal/atomic_hook.h /usr/include/c++/11/cassert \
+ /include/absl/base/log_severity.h /include/absl/base/macros.h \
+ /include/absl/base/port.h /include/absl/base/internal/scheduling_mode.h \
+ /include/absl/base/internal/spinlock_wait.h /include/absl/base/casts.h \
+ /include/absl/base/internal/identity.h /include/absl/meta/type_traits.h \
+ /include/absl/base/thread_annotations.h \
+ /include/absl/base/internal/thread_annotations.h \
+ /include/absl/flags/commandlineflag.h \
+ /include/absl/base/internal/fast_type_id.h \
+ /include/absl/flags/internal/commandlineflag.h \
+ /include/absl/strings/string_view.h /usr/include/c++/11/iterator \
+ /usr/include/c++/11/bits/stream_iterator.h /usr/include/c++/11/limits \
+ /include/absl/base/internal/throw_delegate.h \
+ /include/absl/types/optional.h /include/absl/utility/utility.h \
+ /include/absl/base/internal/inline_variable.h \
+ /usr/include/c++/11/optional \
+ /usr/include/c++/11/bits/enable_special_members.h \
+ /include/absl/flags/internal/registry.h \
+ /include/absl/flags/internal/sequence_lock.h \
+ /include/absl/flags/marshalling.h /include/absl/synchronization/mutex.h \
+ /include/absl/base/const_init.h \
+ /include/absl/base/internal/low_level_alloc.h \
+ /include/absl/base/internal/thread_identity.h /usr/include/unistd.h \
  /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h \
  /usr/include/x86_64-linux-gnu/bits/unistd_ext.h \
- /include/absl/base/log_severity.h /include/absl/log/internal/strip.h \
- /include/absl/log/internal/log_message.h \
- /include/absl/base/internal/errno_saver.h /include/absl/log/log_entry.h \
- /include/absl/log/internal/config.h /include/absl/time/time.h \
+ /include/absl/base/internal/per_thread_tls.h \
+ /include/absl/base/internal/tsan_mutex_interface.h \
+ /include/absl/synchronization/internal/kernel_timeout.h \
+ /include/absl/time/clock.h /include/absl/time/time.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h /usr/include/c++/11/cmath \
@@ -248,23 +253,112 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /include/absl/time/internal/cctz/include/cctz/civil_time.h \
  /include/absl/time/internal/cctz/include/cctz/civil_time_detail.h \
  /include/absl/time/internal/cctz/include/cctz/time_zone.h \
- /include/absl/types/span.h /include/absl/meta/type_traits.h \
+ /include/absl/synchronization/internal/per_thread_sem.h \
+ /include/absl/synchronization/internal/create_thread_identity.h \
+ /include/absl/flags/parse.h /include/absl/flags/internal/parse.h \
+ /include/absl/flags/declare.h /include/grpcpp/grpcpp.h \
+ /include/grpc/grpc.h /include/grpc/support/port_platform.h \
+ /usr/include/linux/version.h /include/grpc/byte_buffer.h \
+ /include/grpc/impl/grpc_types.h /include/grpc/impl/compression_types.h \
+ /include/grpc/slice.h /include/grpc/impl/slice_type.h \
+ /include/grpc/support/sync.h /include/grpc/support/time.h \
+ /include/grpc/support/sync_generic.h /include/grpc/support/atm.h \
+ /include/grpc/support/atm_gcc_atomic.h \
+ /include/grpc/support/sync_abseil.h /include/grpc/status.h \
+ /include/grpc/slice_buffer.h /include/grpc/impl/connectivity_state.h \
+ /include/grpc/impl/propagation_bits.h /include/grpcpp/channel.h \
+ /include/grpcpp/completion_queue.h /usr/include/c++/11/list \
+ /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
+ /include/grpc/support/log.h /usr/include/c++/11/stdlib.h \
+ /include/grpcpp/impl/codegen/rpc_service_method.h \
+ /include/grpcpp/impl/rpc_service_method.h /usr/include/c++/11/climits \
+ /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
+ /usr/include/c++/11/bits/stl_map.h \
+ /usr/include/c++/11/bits/stl_multimap.h \
+ /include/grpcpp/impl/rpc_method.h \
+ /include/grpcpp/impl/codegen/channel_interface.h \
+ /include/grpcpp/impl/channel_interface.h /include/grpcpp/impl/call.h \
+ /include/grpcpp/impl/call_hook.h /include/grpcpp/support/status.h \
+ /include/grpcpp/impl/status.h /include/grpcpp/support/config.h \
+ /include/grpcpp/support/status_code_enum.h \
+ /include/grpcpp/support/time.h /include/grpcpp/support/byte_buffer.h \
+ /include/grpcpp/impl/serialization_traits.h \
+ /include/grpcpp/support/slice.h /include/grpcpp/support/string_ref.h \
+ /include/grpcpp/impl/codegen/status.h \
+ /include/grpcpp/impl/codegen/sync.h /include/grpcpp/impl/sync.h \
+ /usr/include/c++/11/mutex /usr/include/c++/11/bits/std_mutex.h \
+ /usr/include/c++/11/bits/unique_lock.h \
+ /include/grpcpp/impl/codegen/time.h \
+ /include/grpcpp/impl/completion_queue_tag.h \
+ /include/grpcpp/impl/grpc_library.h \
+ /include/grpcpp/impl/codegen/config.h \
+ /include/grpcpp/support/client_interceptor.h \
+ /include/grpcpp/support/interceptor.h \
+ /include/grpcpp/impl/metadata_map.h /include/grpcpp/client_context.h \
+ /include/grpcpp/impl/create_auth_context.h \
+ /include/grpcpp/security/auth_context.h /include/grpcpp/create_channel.h \
+ /include/grpcpp/security/credentials.h \
+ /include/grpc/grpc_security_constants.h \
+ /include/grpcpp/security/tls_credentials_options.h \
+ /include/grpc/grpc_security.h \
+ /include/grpcpp/security/tls_certificate_provider.h \
+ /include/grpcpp/security/tls_certificate_verifier.h \
+ /include/grpcpp/support/channel_arguments.h /include/grpc/compression.h \
+ /include/grpcpp/resource_quota.h /include/grpcpp/create_channel_posix.h \
+ /include/grpcpp/server.h \
+ /include/grpcpp/health_check_service_interface.h \
+ /include/grpcpp/security/server_credentials.h \
+ /include/grpcpp/security/auth_metadata_processor.h \
+ /include/grpcpp/server_interface.h \
+ /include/grpcpp/impl/codegen/interceptor_common.h \
+ /include/grpcpp/impl/interceptor_common.h \
+ /include/grpcpp/impl/call_op_set_interface.h \
+ /include/grpcpp/impl/intercepted_channel.h \
+ /include/grpcpp/support/server_interceptor.h \
+ /include/grpcpp/server_context.h /include/grpcpp/impl/call_op_set.h \
+ /include/grpc/support/alloc.h \
+ /include/grpcpp/impl/codegen/intercepted_channel.h \
+ /include/grpcpp/impl/codegen/create_auth_context.h \
+ /include/grpcpp/impl/codegen/metadata_map.h \
+ /include/grpcpp/support/callback_common.h \
+ /include/grpcpp/support/message_allocator.h \
+ /include/grpcpp/support/server_callback.h \
+ /include/grpcpp/server_builder.h /include/grpc/support/cpu.h \
+ /include/grpc/support/workaround_list.h \
+ /include/grpcpp/impl/channel_argument_option.h \
+ /include/grpcpp/impl/server_builder_option.h \
+ /include/grpcpp/impl/server_builder_plugin.h \
+ /include/grpcpp/security/authorization_policy_provider.h \
+ /include/grpcpp/server_posix.h /include/grpcpp/version_info.h \
+ /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/proto_src/helloworld.grpc.pb.h \
+ /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/proto_src/helloworld.pb.h \
+ /include/google/protobuf/port_def.inc \
+ /include/google/protobuf/port_undef.inc \
+ /include/google/protobuf/io/coded_stream.h \
+ /include/google/protobuf/stubs/common.h \
+ /include/google/protobuf/stubs/platform_macros.h \
+ /include/google/protobuf/stubs/port.h /usr/include/byteswap.h \
+ /include/absl/log/absl_check.h /include/absl/log/internal/check_impl.h \
+ /include/absl/log/internal/check_op.h /usr/include/c++/11/sstream \
+ /usr/include/c++/11/bits/sstream.tcc \
+ /include/absl/log/internal/nullguard.h \
+ /include/absl/log/internal/nullstream.h \
+ /include/absl/log/internal/strip.h \
+ /include/absl/log/internal/log_message.h \
+ /include/absl/base/internal/errno_saver.h /include/absl/log/log_entry.h \
+ /include/absl/log/internal/config.h /include/absl/types/span.h \
  /include/absl/types/internal/span.h /include/absl/algorithm/algorithm.h \
  /include/absl/log/log_sink.h \
  /include/absl/strings/internal/has_absl_stringify.h \
  /include/absl/log/internal/conditions.h \
  /include/absl/log/internal/voidify.h /include/absl/numeric/bits.h \
  /include/absl/numeric/internal/bits.h /include/absl/strings/cord.h \
- /include/absl/base/internal/endian.h /include/absl/base/casts.h \
- /include/absl/base/internal/identity.h \
+ /include/absl/base/internal/endian.h \
  /include/absl/base/internal/unaligned_access.h \
- /include/absl/base/internal/per_thread_tls.h \
  /include/absl/container/inlined_vector.h \
  /include/absl/container/internal/inlined_vector.h \
  /include/absl/container/internal/compressed_tuple.h \
- /include/absl/utility/utility.h \
- /include/absl/base/internal/inline_variable.h \
- /include/absl/base/internal/invoke.h /include/absl/memory/memory.h \
+ /include/absl/memory/memory.h \
  /include/absl/crc/internal/crc_cord_state.h /usr/include/c++/11/deque \
  /usr/include/c++/11/bits/stl_deque.h /usr/include/c++/11/bits/deque.tcc \
  /include/absl/crc/crc32c.h /include/absl/crc/internal/crc32c_inline.h \
@@ -278,8 +372,6 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /include/absl/strings/internal/cord_rep_flat.h \
  /include/absl/strings/internal/cord_data_edge.h \
  /include/absl/strings/internal/cord_rep_btree.h \
- /include/absl/base/internal/raw_logging.h \
- /include/absl/base/internal/atomic_hook.h \
  /include/absl/strings/internal/cord_rep_btree_reader.h \
  /include/absl/strings/internal/cord_rep_btree_navigator.h \
  /include/absl/strings/internal/cord_rep_crc.h \
@@ -293,29 +385,15 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/cxxabi_tweaks.h \
  /include/absl/strings/internal/cordz_functions.h \
  /include/absl/strings/internal/cordz_info.h \
- /include/absl/base/internal/spinlock.h /include/absl/base/const_init.h \
+ /include/absl/base/internal/spinlock.h \
  /include/absl/base/dynamic_annotations.h \
  /include/absl/base/internal/dynamic_annotations.h \
- /include/absl/base/internal/low_level_scheduling.h \
- /include/absl/base/internal/scheduling_mode.h \
- /include/absl/base/internal/tsan_mutex_interface.h \
- /include/absl/base/thread_annotations.h \
- /include/absl/base/internal/thread_annotations.h \
  /include/absl/strings/internal/cordz_handle.h \
- /include/absl/synchronization/mutex.h \
- /include/absl/base/internal/low_level_alloc.h \
- /include/absl/base/internal/thread_identity.h \
- /include/absl/synchronization/internal/kernel_timeout.h \
- /include/absl/time/clock.h \
- /include/absl/synchronization/internal/per_thread_sem.h \
- /include/absl/synchronization/internal/create_thread_identity.h \
  /include/absl/strings/internal/cordz_statistics.h \
  /include/absl/strings/internal/cordz_update_tracker.h \
  /include/absl/strings/internal/cordz_update_scope.h \
  /include/absl/strings/internal/resize_uninitialized.h \
  /include/absl/strings/internal/string_constant.h \
- /include/absl/types/optional.h /usr/include/c++/11/optional \
- /usr/include/c++/11/bits/enable_special_members.h \
  /include/google/protobuf/port.h /include/google/protobuf/arena.h \
  /include/google/protobuf/arena_align.h \
  /include/google/protobuf/arena_config.h \
@@ -329,8 +407,6 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /include/google/protobuf/arenastring.h \
  /include/google/protobuf/explicitly_constructed.h \
  /include/google/protobuf/generated_message_util.h \
- /include/absl/base/call_once.h \
- /include/absl/base/internal/spinlock_wait.h \
  /include/google/protobuf/any.h /include/google/protobuf/message_lite.h \
  /include/google/protobuf/metadata_lite.h \
  /include/google/protobuf/has_bits.h \
@@ -357,11 +433,7 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /include/absl/hash/hash.h /include/absl/hash/internal/hash.h \
  /usr/include/c++/11/bitset /usr/include/c++/11/forward_list \
  /usr/include/c++/11/bits/forward_list.h \
- /usr/include/c++/11/bits/forward_list.tcc /usr/include/c++/11/list \
- /usr/include/c++/11/bits/stl_list.h /usr/include/c++/11/bits/list.tcc \
- /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
- /usr/include/c++/11/bits/stl_map.h \
- /usr/include/c++/11/bits/stl_multimap.h /usr/include/c++/11/set \
+ /usr/include/c++/11/bits/forward_list.tcc /usr/include/c++/11/set \
  /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
  /include/absl/container/fixed_array.h /include/absl/hash/internal/city.h \
@@ -391,56 +463,10 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /include/google/protobuf/map.h \
  /include/google/protobuf/map_type_handler.h \
  /include/google/protobuf/extension_set.h \
- /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/helloworld.grpc.pb.h \
  /include/grpcpp/generic/async_generic_service.h \
- /include/grpc/support/port_platform.h /usr/include/linux/version.h \
- /include/grpcpp/impl/server_callback_handlers.h /include/grpc/grpc.h \
- /include/grpc/byte_buffer.h /include/grpc/impl/grpc_types.h \
- /include/grpc/impl/compression_types.h /include/grpc/slice.h \
- /include/grpc/impl/slice_type.h /include/grpc/support/sync.h \
- /include/grpc/support/time.h /include/grpc/support/sync_generic.h \
- /include/grpc/support/atm.h /include/grpc/support/atm_gcc_atomic.h \
- /include/grpc/support/sync_abseil.h /include/grpc/status.h \
- /include/grpc/slice_buffer.h /include/grpc/impl/connectivity_state.h \
- /include/grpc/impl/propagation_bits.h /include/grpc/support/log.h \
- /include/grpcpp/impl/rpc_service_method.h \
- /include/grpcpp/impl/rpc_method.h \
- /include/grpcpp/impl/codegen/channel_interface.h \
- /include/grpcpp/impl/channel_interface.h /include/grpcpp/impl/call.h \
- /include/grpcpp/impl/call_hook.h /include/grpcpp/support/status.h \
- /include/grpcpp/impl/status.h /include/grpcpp/support/config.h \
- /include/grpcpp/support/status_code_enum.h \
- /include/grpcpp/support/time.h /include/grpcpp/support/byte_buffer.h \
- /include/grpcpp/impl/serialization_traits.h \
- /include/grpcpp/support/slice.h /include/grpcpp/support/string_ref.h \
- /include/grpcpp/server_context.h /include/grpcpp/impl/call_op_set.h \
- /include/grpc/support/alloc.h /include/grpcpp/client_context.h \
- /include/grpcpp/impl/create_auth_context.h \
- /include/grpcpp/security/auth_context.h \
- /include/grpcpp/impl/metadata_map.h /include/grpcpp/impl/sync.h \
- /usr/include/c++/11/mutex /usr/include/c++/11/bits/std_mutex.h \
- /usr/include/c++/11/bits/unique_lock.h \
- /include/grpcpp/support/client_interceptor.h \
- /include/grpcpp/support/interceptor.h /include/grpcpp/completion_queue.h \
- /include/grpcpp/impl/codegen/rpc_service_method.h \
- /include/grpcpp/impl/codegen/status.h \
- /include/grpcpp/impl/codegen/sync.h /include/grpcpp/impl/codegen/time.h \
- /include/grpcpp/impl/completion_queue_tag.h \
- /include/grpcpp/impl/grpc_library.h \
- /include/grpcpp/impl/codegen/config.h \
- /include/grpcpp/impl/call_op_set_interface.h \
- /include/grpcpp/impl/codegen/intercepted_channel.h \
- /include/grpcpp/impl/intercepted_channel.h \
- /include/grpcpp/impl/interceptor_common.h \
- /include/grpcpp/support/server_interceptor.h \
- /include/grpcpp/impl/codegen/create_auth_context.h \
- /include/grpcpp/impl/codegen/metadata_map.h \
- /include/grpcpp/support/callback_common.h \
- /include/grpcpp/support/message_allocator.h \
- /include/grpcpp/support/server_callback.h \
+ /include/grpcpp/impl/server_callback_handlers.h \
  /include/grpcpp/support/async_stream.h \
- /include/grpcpp/impl/service_type.h /include/grpcpp/server_interface.h \
- /include/grpcpp/impl/codegen/interceptor_common.h \
+ /include/grpcpp/impl/service_type.h \
  /include/grpcpp/support/async_unary_call.h \
  /include/grpcpp/support/client_callback.h \
  /include/grpcpp/support/method_handler.h \
@@ -459,4 +485,4 @@ CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o: \
  /include/grpcpp/support/proto_buffer_reader.h \
  /include/grpcpp/support/proto_buffer_writer.h \
  /include/grpcpp/support/stub_options.h \
- /include/grpcpp/impl/client_unary_call.h
+ /home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/client/include/rru_operations.h

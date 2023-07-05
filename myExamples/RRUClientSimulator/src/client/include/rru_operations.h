@@ -16,7 +16,7 @@
 extern "C" {
 #endif
 
-extern void my_cpp_function(int argc, char** argv);
+extern void my_operation(int argc, char** argv);
 
 #ifdef __cplusplus
 }

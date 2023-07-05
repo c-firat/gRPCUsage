@@ -8,6 +8,9 @@ It is assumed that the setup part is completed for building and running the proj
 $ mkdir -p cmake/build
 $ pushd cmake/build
 $ cmake -DCMAKE_PREFIX_PATH=$MY_INSTALL_DIR ../..
+cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_VERBOSE_MAKEFILE=ON ..
+cmake --build ..
+$ popd
 $ make -j 4
 ```
 

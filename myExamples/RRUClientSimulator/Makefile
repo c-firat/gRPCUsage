@@ -31,6 +31,9 @@ default_target: all
 
 .SUFFIXES: .hpux_make_needs_suffix_list
 
+# Produce verbose output by default.
+VERBOSE = 1
+
 # Command-line flag to silence nested $(MAKE).
 $(VERBOSE)MAKESILENT = -s
 
@@ -130,17 +133,17 @@ hw_grpc_proto/fast:
 .PHONY : hw_grpc_proto/fast
 
 #=============================================================================
-# Target rules for targets named clientSimulator
+# Target rules for targets named client_simulator
 
 # Build rule for target.
-clientSimulator: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clientSimulator
-.PHONY : clientSimulator
+client_simulator: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 client_simulator
+.PHONY : client_simulator
 
 # fast build rule for target.
-clientSimulator/fast:
-	$(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/clientSimulator.dir/build.make src/client/CMakeFiles/clientSimulator.dir/build
-.PHONY : clientSimulator/fast
+client_simulator/fast:
+	$(MAKE) $(MAKESILENT) -f src/client/CMakeFiles/client_simulator.dir/build.make src/client/CMakeFiles/client_simulator.dir/build
+.PHONY : client_simulator/fast
 
 #=============================================================================
 # Target rules for targets named RRUOperations
@@ -168,53 +171,53 @@ server_simulator/fast:
 	$(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/server_simulator.dir/build.make src/server/CMakeFiles/server_simulator.dir/build
 .PHONY : server_simulator/fast
 
-helloworld.grpc.pb.o: helloworld.grpc.pb.cc.o
-.PHONY : helloworld.grpc.pb.o
+src/proto_src/helloworld.grpc.pb.o: src/proto_src/helloworld.grpc.pb.cc.o
+.PHONY : src/proto_src/helloworld.grpc.pb.o
 
 # target to build an object file
-helloworld.grpc.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.o
-.PHONY : helloworld.grpc.pb.cc.o
+src/proto_src/helloworld.grpc.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/src/proto_src/helloworld.grpc.pb.cc.o
+.PHONY : src/proto_src/helloworld.grpc.pb.cc.o
 
-helloworld.grpc.pb.i: helloworld.grpc.pb.cc.i
-.PHONY : helloworld.grpc.pb.i
+src/proto_src/helloworld.grpc.pb.i: src/proto_src/helloworld.grpc.pb.cc.i
+.PHONY : src/proto_src/helloworld.grpc.pb.i
 
 # target to preprocess a source file
-helloworld.grpc.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.i
-.PHONY : helloworld.grpc.pb.cc.i
+src/proto_src/helloworld.grpc.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/src/proto_src/helloworld.grpc.pb.cc.i
+.PHONY : src/proto_src/helloworld.grpc.pb.cc.i
 
-helloworld.grpc.pb.s: helloworld.grpc.pb.cc.s
-.PHONY : helloworld.grpc.pb.s
+src/proto_src/helloworld.grpc.pb.s: src/proto_src/helloworld.grpc.pb.cc.s
+.PHONY : src/proto_src/helloworld.grpc.pb.s
 
 # target to generate assembly for a file
-helloworld.grpc.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.grpc.pb.cc.s
-.PHONY : helloworld.grpc.pb.cc.s
+src/proto_src/helloworld.grpc.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/src/proto_src/helloworld.grpc.pb.cc.s
+.PHONY : src/proto_src/helloworld.grpc.pb.cc.s
 
-helloworld.pb.o: helloworld.pb.cc.o
-.PHONY : helloworld.pb.o
+src/proto_src/helloworld.pb.o: src/proto_src/helloworld.pb.cc.o
+.PHONY : src/proto_src/helloworld.pb.o
 
 # target to build an object file
-helloworld.pb.cc.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.o
-.PHONY : helloworld.pb.cc.o
+src/proto_src/helloworld.pb.cc.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/src/proto_src/helloworld.pb.cc.o
+.PHONY : src/proto_src/helloworld.pb.cc.o
 
-helloworld.pb.i: helloworld.pb.cc.i
-.PHONY : helloworld.pb.i
+src/proto_src/helloworld.pb.i: src/proto_src/helloworld.pb.cc.i
+.PHONY : src/proto_src/helloworld.pb.i
 
 # target to preprocess a source file
-helloworld.pb.cc.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.i
-.PHONY : helloworld.pb.cc.i
+src/proto_src/helloworld.pb.cc.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/src/proto_src/helloworld.pb.cc.i
+.PHONY : src/proto_src/helloworld.pb.cc.i
 
-helloworld.pb.s: helloworld.pb.cc.s
-.PHONY : helloworld.pb.s
+src/proto_src/helloworld.pb.s: src/proto_src/helloworld.pb.cc.s
+.PHONY : src/proto_src/helloworld.pb.s
 
 # target to generate assembly for a file
-helloworld.pb.cc.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/helloworld.pb.cc.s
-.PHONY : helloworld.pb.cc.s
+src/proto_src/helloworld.pb.cc.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hw_grpc_proto.dir/build.make CMakeFiles/hw_grpc_proto.dir/src/proto_src/helloworld.pb.cc.s
+.PHONY : src/proto_src/helloworld.pb.cc.s
 
 # Help Target
 help:
@@ -225,15 +228,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... RRUOperations"
-	@echo "... clientSimulator"
+	@echo "... client_simulator"
 	@echo "... hw_grpc_proto"
 	@echo "... server_simulator"
-	@echo "... helloworld.grpc.pb.o"
-	@echo "... helloworld.grpc.pb.i"
-	@echo "... helloworld.grpc.pb.s"
-	@echo "... helloworld.pb.o"
-	@echo "... helloworld.pb.i"
-	@echo "... helloworld.pb.s"
+	@echo "... src/proto_src/helloworld.grpc.pb.o"
+	@echo "... src/proto_src/helloworld.grpc.pb.i"
+	@echo "... src/proto_src/helloworld.grpc.pb.s"
+	@echo "... src/proto_src/helloworld.pb.o"
+	@echo "... src/proto_src/helloworld.pb.i"
+	@echo "... src/proto_src/helloworld.pb.s"
 .PHONY : help
 
 

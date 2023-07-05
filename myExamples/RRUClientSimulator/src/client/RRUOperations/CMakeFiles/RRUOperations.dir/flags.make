@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCARES_STATICLIB
 
-CXX_INCLUDES = -I/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator -I/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/client/include -isystem /include
+CXX_INCLUDES = -I/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/proto_src -I/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/client/include -isystem /include
 
-CXX_FLAGS = 
+CXX_FLAGS = -g
 

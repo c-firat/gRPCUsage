@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../lib/libRRUOperations.a"
-  "../../../lib/libRRUOperations.pdb"
+  "../../../build/lib/libRRUOperations.a"
+  "../../../build/lib/libRRUOperations.pdb"
   "CMakeFiles/RRUOperations.dir/rru_operations.cc.o"
   "CMakeFiles/RRUOperations.dir/rru_operations.cc.o.d"
 )

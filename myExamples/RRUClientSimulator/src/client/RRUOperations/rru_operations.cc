@@ -26,7 +26,7 @@
 #include <grpcpp/grpcpp.h>
 
 #include "helloworld.grpc.pb.h"
-#include "greeter_client_headers.h"
+#include "rru_operations.h"
 
 ABSL_FLAG(std::string, target, "localhost:50051", "Server address");
 
@@ -80,7 +80,7 @@ class GreeterClient {
  * @param argv 
  * @return int 
  */
-void my_cpp_function(int argc, char** argv) {
+void my_operation(int argc, char** argv) {
   absl::ParseCommandLine(argc, argv);
 
   // Instantiate the client. It requires a channel, out of which the actual RPCs

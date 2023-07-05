@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../bin/server_simulator"
-  "../../bin/server_simulator.pdb"
+  "../../build/bin/server_simulator"
+  "../../build/bin/server_simulator.pdb"
   "CMakeFiles/server_simulator.dir/server_simulator.cc.o"
   "CMakeFiles/server_simulator.dir/server_simulator.cc.o.d"
 )

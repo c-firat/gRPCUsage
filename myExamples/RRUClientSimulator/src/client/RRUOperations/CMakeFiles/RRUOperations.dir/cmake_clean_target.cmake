@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../../lib/libRRUOperations.a"
+  "../../../build/lib/libRRUOperations.a"
 )
