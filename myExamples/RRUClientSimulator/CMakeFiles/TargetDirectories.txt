@@ -1,0 +1,14 @@
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/CMakeFiles/hw_grpc_proto.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/CMakeFiles/edit_cache.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/CMakeFiles/rebuild_cache.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/CMakeFiles/edit_cache.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/CMakeFiles/rebuild_cache.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/client/CMakeFiles/clientSimulator.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/client/CMakeFiles/edit_cache.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/client/CMakeFiles/rebuild_cache.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/client/RRUOperations/CMakeFiles/RRUOperations.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/client/RRUOperations/CMakeFiles/edit_cache.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/client/RRUOperations/CMakeFiles/rebuild_cache.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/server/CMakeFiles/server_simulator.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/server/CMakeFiles/edit_cache.dir
+/home/ulak/cf/gRPCUsage/myExamples/RRUClientSimulator/src/server/CMakeFiles/rebuild_cache.dir
