@@ -11,7 +11,7 @@ get_filename_component(hw_proto "../../protos/helloworld.proto" ABSOLUTE)
 get_filename_component(hw_proto_path "${hw_proto}" PATH)
 
 # Create build directory if it doesn't exist
-file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/build)
+file(MAKE_DIRECTORY ${CMAKE_CURRENT_BINARY_DIR})
 
 set(CMAKE_MODULE_PATH "${CMAKE_BINARY_DIR}" "${CMAKE_MODULE_PATH}")
 set(CMAKE_PREFIX_PATH "${CMAKE_BINARY_DIR}" "${CMAKE_PREFIX_PATH}")
