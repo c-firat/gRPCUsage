@@ -1,6 +1,6 @@
 *.o
 *.pb.cc
 *.pb.h
-bin
-lib
+build
 src/proto_src
+Makefiles

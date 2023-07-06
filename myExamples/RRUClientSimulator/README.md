@@ -1,16 +1,14 @@
-# gRPC C/C++ sayHello Example
+# gRPC C/C++
 
-## Build and run helloRRU Project
+## Build and run RRUClientSimulator Project
 
 It is assumed that the setup part is completed for building and running the project.
 
 ```
-$ mkdir -p cmake/build
-$ pushd cmake/build
-$ cmake -DCMAKE_PREFIX_PATH=$MY_INSTALL_DIR ../..
-cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_VERBOSE_MAKEFILE=ON ..
-cmake --build ..
-$ popd
+$ rm -r build
+$ mkdir -p build
+$ pushd build
+$ cmake -DCMAKE_PREFIX_PATH=$MY_INSTALL_DIR ..
 $ make -j 4
 ```
 

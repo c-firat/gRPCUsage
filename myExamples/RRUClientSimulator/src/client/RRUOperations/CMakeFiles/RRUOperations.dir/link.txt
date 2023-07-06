@@ -1,2 +1,0 @@
-/usr/bin/ar qc ../../../build/lib/libRRUOperations.a CMakeFiles/RRUOperations.dir/rru_operations.cc.o
-/usr/bin/ranlib ../../../build/lib/libRRUOperations.a
